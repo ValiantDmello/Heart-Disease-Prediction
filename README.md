@@ -10,19 +10,19 @@ This project aims to predict heart disease using machine learning techniques on 
 * heart.csv: Dataset used for training and testing the models.
 * app/: Flask web application folder containing code for the user interface to make predictions using the trained KNN model.
 
-## Getting Started
+## Running Flask App
 
-1. Clone the Repository:
+1. Clone the Repository: <br>
 ```git clone https://github.com/your-username/heart-disease-prediction.git```
 
-2. Navigate to project directory
-```cd heart-disease-prediction```
-
-3. Install Dependencies:
-```pip install -r requirements.txt```
-
-4. Run the Flask App:
+2. Navigate to app directory <br>
+```cd heart-disease-prediction``` <br>
 ```cd app```
-```python app.py```
+
+4. Install Dependencies: <br>
+```pip install -r requirements.txt``` <br>
+
+5. Run the Flask App: <br>
+```python app.py``` <br>
 
 Visit http://localhost:5000 in your web browser to use the prediction interface.
